@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<!--http://www.eclipse.org/jetty/documentation/9.4.x/jetty-web-xml-config.html-->
-<!-- note this issue if you run into trouble: https://github.com/eclipse/jetty.project/issues/2136 -->
-<!DOCTYPE Configure PUBLIC "-//Jetty//Configure//EN" "http://www.eclipse.org/jetty/configure.dtd">
-<Configure class="org.eclipse.jetty.webapp.WebAppContext">
-  <Set name="contextPath">/webmvc</Set>
-</Configure>
