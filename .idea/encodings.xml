@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Spring-boot-simple" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Spring-boot-simple/target/classes/META-INF/maven/com.spring.boot/Spring-boot-simple" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-batch" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-batch-db" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-batch-db/target/classes/META-INF/maven/com.spring.boot/spring-batch-db" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-batch-xml" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-batch-xml/target/classes/META-INF/maven/com.spring.boot/spring-batch-xml" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-batch/target/META-INF/maven/com.spring.boot/spring-batch" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-batch/target/classes/META-INF/maven/com.spring.boot/spring-batch" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-jooq" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-jooq/target/classes/META-INF/maven/com.spring.boot/spring-jooq" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/webmvc" charset="UTF-8" />
+  </component>
+</project>

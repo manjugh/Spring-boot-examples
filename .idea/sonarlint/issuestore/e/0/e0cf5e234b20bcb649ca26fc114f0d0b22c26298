@@ -1,0 +1,8 @@
+
+É%squid:RedundantThrowsDeclarationCheck
+"’Remove the declaration of thrown exception 'org.springframework.batch.item.UnexpectedInputException' which is a subclass of 'java.lang.Exception'.(ÄÒ‡÷úÿÿÿÿ
+¿%squid:RedundantThrowsDeclarationCheck
+"ˆRemove the declaration of thrown exception 'org.springframework.batch.item.ParseException' which is a subclass of 'java.lang.Exception'.(ÄÒ‡÷úÿÿÿÿ
+Î%squid:RedundantThrowsDeclarationCheck
+"—Remove the declaration of thrown exception 'org.springframework.batch.item.NonTransientResourceException' which is a subclass of 'java.lang.Exception'.(ÄÒ‡÷úÿÿÿÿ
+Nsquid:S1135"2Complete the task associated to this TODO comment.(» æžÿÿÿÿÿ

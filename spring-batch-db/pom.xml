@@ -1,0 +1,118 @@
+<?xml version="1.0"?>
+<project
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd"
+	xmlns="http://maven.apache.org/POM/4.0.0"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<modelVersion>4.0.0</modelVersion>
+	<parent>
+		<groupId>com.spring.boot</groupId>
+		<artifactId>spring-examples</artifactId>
+		<version>0.0.1-SNAPSHOT</version>
+	</parent>
+	<artifactId>spring-batch-db</artifactId>
+	<name>spring-batch-db</name>
+
+	<properties>
+		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+		<oracle.ojdbc.version>18.3.0.0</oracle.ojdbc.version>
+		<ibm.mq.version>p800-005-160516.2</ibm.mq.version>
+		<ibm.mq.dhbcore>7.0</ibm.mq.dhbcore>
+		<spring.jms>4.3.9.RELEASE</spring.jms>
+		<javax.jms>2.0.1</javax.jms>
+		<maven.compiler.source>1.8</maven.compiler.source>
+		<maven.compiler.target>1.8</maven.compiler.target>
+	</properties>
+	<dependencies>
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-autoconfigure</artifactId>
+		</dependency>
+
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-batch</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>org.springframework.batch</groupId>
+			<artifactId>spring-batch-test</artifactId>
+			<scope>test</scope>
+			<exclusions>
+				<exclusion>
+					<groupId>commons-dbcp</groupId>
+					<artifactId>commons-dbcp</artifactId>
+				</exclusion>
+			</exclusions>
+		</dependency>
+		<dependency>
+			<groupId>org.springframework</groupId>
+			<artifactId>spring-test</artifactId>
+			<scope>test</scope>
+		</dependency>
+		<dependency>
+			<groupId>org.springframework</groupId>
+			<artifactId>spring-jdbc</artifactId>
+		</dependency>
+
+		<dependency>
+			<groupId>com.oracle.jdbc</groupId>
+			<artifactId>ucp</artifactId>
+			<version>${oracle.ojdbc.version}</version>
+		</dependency>
+
+		<dependency>
+			<groupId>com.oracle.jdbc</groupId>
+			<artifactId>ojdbc8</artifactId>
+			<version>${oracle.ojdbc.version}</version>
+		</dependency>
+
+		<dependency>
+			<groupId>com.oracle.jdbc</groupId>
+			<artifactId>ojdbc8</artifactId>
+			<version>${oracle.ojdbc.version}</version>
+		</dependency>
+
+		<dependency>
+			<groupId>com.ibm.mq</groupId>
+			<artifactId>mq-jms-spring-boot-starter</artifactId>
+			<version>2.0.0</version>
+		</dependency>
+
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-jdbc</artifactId>
+		</dependency>
+		<!-- <dependency> <groupId>com.ibm.mq</groupId> <artifactId>com.ibm.mqjms</artifactId> 
+			<version>${ibm.mq.version}</version> </dependency> <dependency> <groupId>com.ibm.mq</groupId> 
+			<artifactId>com.ibm.mq.jmqi</artifactId> <version>${ibm.mq.version}</version> 
+			<scope>runtime</scope> </dependency> <dependency> <groupId>com.ibm</groupId> 
+			<artifactId>disthub2.dhbcore</artifactId> <version>${ibm.mq.dhbcore}</version> 
+			</dependency> <dependency> <groupId>com.ibm.mq</groupId> <artifactId>com.ibm.mq.commonservices</artifactId> 
+			<version>${ibm.mq.version}</version> <scope>runtime</scope> </dependency> 
+			<dependency> <groupId>com.ibm.mq</groupId> <artifactId>com.ibm.mq.headers</artifactId> 
+			<version>${ibm.mq.version}</version> <scope>runtime</scope> </dependency> 
+			<dependency> <groupId>com.ibm.mq</groupId> <artifactId>com.ibm.mq</artifactId> 
+			<version>${ibm.mq.version}</version> <scope>runtime</scope> </dependency> 
+			<dependency> <groupId>com.ibm.mq</groupId> <artifactId>com.ibm.mq.pcf</artifactId> 
+			<version>${ibm.mq.version}</version> <scope>runtime</scope> </dependency> 
+			<dependency> <groupId>org.springframework</groupId> <artifactId>spring-jms</artifactId> 
+			<version>${spring.jms}</version> </dependency> <dependency> <groupId>javax.jms</groupId> 
+			<artifactId>javax.jms-api</artifactId> <version>${javax.jms}</version> </dependency> -->
+
+		<!-- <dependency> <groupId>org.hsqldb</groupId> <artifactId>hsqldb</artifactId> 
+			</dependency> -->
+	</dependencies>
+
+	<build>
+		<plugins>
+			<plugin>
+				<groupId>org.springframework.boot</groupId>
+				<artifactId>spring-boot-maven-plugin</artifactId>
+				<configuration>
+					<jvmArguments> -Xdebug
+						-Xrunjdwp:transport=dt_socket,server=y,suspend=y,address=5005
+					</jvmArguments>
+				</configuration>
+			</plugin>
+		</plugins>
+	</build>
+</project>

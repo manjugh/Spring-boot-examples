@@ -1,0 +1,7 @@
+
+Dsquid:S1068*"(Remove this unused "user" private field.(‡ΟΗ³ψÿÿÿÿ
+Hsquid:S1068+",Remove this unused "password" private field.(γλ­ϊÿÿÿÿ
+ssquid:S1450+"WRemove the "password" field and declare it as a local variable in the relevant methods.(γλ­ϊÿÿÿÿ
+osquid:S1450*"SRemove the "user" field and declare it as a local variable in the relevant methods.(‡ΟΗ³ψÿÿÿÿ
+nsquid:S1450,"RRemove the "url" field and declare it as a local variable in the relevant methods.(«εωÿÿÿÿ
+Csquid:S1068,"'Remove this unused "url" private field.(«εωÿÿÿÿ

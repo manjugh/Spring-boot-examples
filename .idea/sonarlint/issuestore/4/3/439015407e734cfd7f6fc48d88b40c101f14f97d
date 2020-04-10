@@ -1,0 +1,5 @@
+
+zsquid:UselessImportCheck"QRemove this unused import 'org.springframework.context.annotation.Configuration'.(¬²Úäşÿÿÿÿ
+Š"squid:ClassVariableVisibilityCheck"PMake port a static final constant or non-public and provide accessors if needed.(Í˜ªğúÿÿÿÿ8ÌáŒµş-
+Œ"squid:ClassVariableVisibilityCheck"RMake server a static final constant or non-public and provide accessors if needed.(‘¸îüúÿÿÿÿ8ÌáŒµş-
+isquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(‘óÏÚ8±ÙŠµş-

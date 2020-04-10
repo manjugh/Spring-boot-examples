@@ -1,0 +1,35 @@
+developMode: false
+dataSource:
+  abandonedConnectionTimeout: 300
+  connectionWaitTimeout: ${dataSource.loginTimeout}
+  inactiveConnectionTimeoutSec: ${dataSource.maxConnectionReuseTimeSec}
+  initialPoolSize: ${dataSource.minPoolSize}
+  loginTimeout: 30
+  maxConnectionReuseTimeSec: 6000
+  maxPoolSize: 10
+  minPoolSize: 5
+  readTimeoutMillis: 10000
+  timeToLiveConnectionTimeout: 3000
+  validateConnectionOnBorrow: true
+  maxStatements: 200
+  url: jdbc:oracle:thin:@localhost:1521/orcl
+  user: appdata
+  password: app
+spring:
+   batch:
+      initialize-schema: never
+jobRepository:
+  isolationLevelForCreate: ISOLATION_DEFAULT
+ibm:
+   mq:
+     queueManager: DEVMQ
+     channel: SYSTEM.ADMIN.SVRCONN
+     connName: 127.0.0.1
+inv:
+   commitInterval: 1
+   skipLimit: 10
+   
+
+      
+      
+     

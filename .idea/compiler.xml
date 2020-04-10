@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="spring-batch-db (1)" />
+        <module name="spring-batch-xml (1)" />
+        <module name="Spring-boot-simple" />
+        <module name="spring-jooq (1)" />
+        <module name="spring-batch" />
+        <module name="spring-jooq" />
+        <module name="Spring-boot-simple (1)" />
+        <module name="webmvc" />
+        <module name="spring-batch-xml" />
+        <module name="spring-batch (1)" />
+        <module name="spring-batch-db" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="spring-batch (2)" target="1.5" />
+      <module name="spring-batch (3)" target="1.5" />
+      <module name="spring-batch-db (2)" target="1.8" />
+      <module name="spring-batch-xml (2)" target="1.5" />
+      <module name="Spring-boot-simple (2)" target="1.5" />
+      <module name="spring-jooq (2)" target="1.5" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

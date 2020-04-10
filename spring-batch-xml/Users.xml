@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tns:Users xmlns:tns="http://www.example.org/User" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.example.org/User main/resources/User.xsd ">
+  <tns:users>
+    <tns:userId>100</tns:userId>
+    <tns:userName>User1</tns:userName>
+  </tns:users>
+  <tns:users>
+    <tns:userId>101</tns:userId>
+    <tns:userName>User2</tns:userName>
+  </tns:users>
+</tns:Users>

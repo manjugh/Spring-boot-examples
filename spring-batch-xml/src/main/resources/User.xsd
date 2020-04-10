@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schema xmlns="http://www.w3.org/2001/XMLSchema"
+	targetNamespace="http://www.example.org/User"
+	xmlns:tns="http://www.example.org/User" elementFormDefault="qualified">
+
+   <element name="UserGroup" type="tns:UserGroups"/>
+   <element name="EmployeeGroup" type="tns:EmployeeGroups"/>
+   
+	<complexType name="UserGroups">
+		<sequence>
+			<element name="users" type="tns:User" maxOccurs="unbounded" />
+		</sequence>
+	</complexType>
+	
+	<complexType name="User">
+		<sequence>
+			<element name="userId" type="tns:customInt" />
+			<element name="userName" type="string" nillable="true"
+				default="username" />
+		</sequence>
+	</complexType>
+	
+	<complexType name="EmployeeGroups">
+		<sequence>
+			<element name="employee" type="tns:Employee" maxOccurs="unbounded" />
+		</sequence>
+	</complexType>
+	
+	<complexType name="Employee">
+		<sequence>
+			<element name="userId" type="tns:customInt" />
+			<element name="userName" type="string" nillable="true"
+				default="username" />
+		</sequence>
+	</complexType>
+
+	<simpleType name="customInt">
+		<restriction base="int">
+			<minInclusive value="100" />
+			<maxExclusive value="200" />
+		</restriction>
+	</simpleType>
+
+</schema>
